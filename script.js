@@ -1211,9 +1211,7 @@ function renderCertificate() {
                     <p><strong>Completion Date:</strong> ${new Date().toLocaleDateString()}</p>
                     <p><strong>Certificate ID:</strong> SA-${Date.now().toString().slice(-6)}</p>
                 </div>
-                <button class="btn-primary" onclick="downloadCertificate()" style="margin-top: 2rem;">
-                    <i class="fas fa-download"></i> Download Certificate
-                </button>
+              
             </div>
         `
   } else {
