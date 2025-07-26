@@ -228,140 +228,371 @@ const courseData = {
           ],
         },
         {
-          id: 2,
-          title: "B2B vs B2C Sales Approaches",
-          duration: "22 min read",
-          content: {
-            lesson: `
-                            <h1>B2B vs B2C Sales Approaches in Software</h1>
-                            
-                            <p>Understanding the fundamental differences between Business-to-Business (B2B) and Business-to-Consumer (B2C) sales approaches is crucial for software sales professionals. Each requires distinct strategies, skills, and mindsets to achieve success in the Indian market.</p>
-                            
-                            <h2>Fundamental Differences Overview</h2>
-                            
-                            <div class="comparison-table">
-                                <h3>B2B vs B2C: Core Distinctions</h3>
-                                
-                                <h4>Decision-Making Process</h4>
-                                <p><strong>B2B:</strong> Complex, multi-stakeholder decisions involving committees, extensive evaluation periods, and formal approval processes. In Indian enterprises, this often includes multiple hierarchical levels.</p>
-                                
-                                <p><strong>B2C:</strong> Individual or household decisions, typically faster and more emotional, with fewer people involved in the final choice.</p>
-                                
-                                <h4>Purchase Motivation</h4>
-                                <p><strong>B2B:</strong> Driven by business needs, ROI calculations, efficiency improvements, competitive advantage, and problem-solving requirements.</p>
-                                
-                                <p><strong>B2C:</strong> Motivated by personal needs, desires, convenience, status, entertainment, or lifestyle enhancement.</p>
-                                
-                                <h4>Relationship Duration</h4>
-                                <p><strong>B2B:</strong> Long-term partnerships spanning years, with ongoing support, renewals, and expansion opportunities.</p>
-                                
-                                <p><strong>B2C:</strong> Often transactional, though some products build long-term brand loyalty.</p>
-                            </div>
-                            
-                            <h2>B2B Software Sales Deep Dive</h2>
-                            
-                            <h3>The B2B Buying Committee</h3>
-                            <p>In Indian B2B software sales, understanding the buying committee structure is essential:</p>
-                            
-                            <ul>
-                                <li><strong>Economic Buyer:</strong> Has budget authority and final approval power (often C-level executives)</li>
-                                <li><strong>Technical Buyer:</strong> Evaluates technical fit and integration capabilities (CTO, IT Director)</li>
-                                <li><strong>User Buyer:</strong> Will actually use the software daily (department heads, team leads)</li>
-                                <li><strong>Coach:</strong> Internal advocate who guides you through the organization</li>
-                                <li><strong>Influencer:</strong> Provides input and recommendations but doesn't make final decisions</li>
-                            </ul>
-                            
-                            <h3>B2B Sales Cycle Characteristics</h3>
-                            <p>B2B software sales in India typically follow this extended process:</p>
-                            
-                            <ol>
-                                <li><strong>Problem Recognition (Weeks 1-4):</strong> Organization identifies business challenge</li>
-                                <li><strong>Solution Research (Weeks 5-12):</strong> Team researches available options and vendors</li>
-                                <li><strong>Vendor Evaluation (Weeks 13-20):</strong> RFP process, demos, and detailed assessments</li>
-                                <li><strong>Proposal & Negotiation (Weeks 21-28):</strong> Contract terms, pricing, and implementation planning</li>
-                                <li><strong>Final Approval (Weeks 29-32):</strong> Executive sign-off and legal review</li>
-                                <li><strong>Implementation Planning (Weeks 33-36):</strong> Project kickoff and timeline establishment</li>
-                            </ol>
-                            
-                            <div class="indian-context">
-                                <h3>B2B Sales in Indian Context</h3>
-                                <p>Indian B2B sales have unique characteristics:</p>
-                                <ul>
-                                    <li><strong>Hierarchy Respect:</strong> Decision-making follows organizational hierarchy strictly</li>
-                                    <li><strong>Relationship Building:</strong> Personal relationships often precede business discussions</li>
-                                    <li><strong>Risk Aversion:</strong> Conservative approach to new technology adoption</li>
-                                    <li><strong>Cost Justification:</strong> Extensive ROI analysis and budget scrutiny</li>
-                                    <li><strong>Reference Importance:</strong> Strong preference for vendors with local success stories</li>
-                                </ul>
-                            </div>
-                            
-                            <div class="key-takeaways">
-                                <h3>Key Takeaways</h3>
-                                <ul>
-                                    <li>B2B sales require longer relationship building and complex stakeholder management</li>
-                                    <li>B2C sales focus on emotional connection and simplified value propositions</li>
-                                    <li>Decision-making processes differ significantly between business and consumer buyers</li>
-                                    <li>Communication styles must adapt to audience expectations and preferences</li>
-                                    <li>Pricing strategies should reflect the different value perceptions of each market</li>
-                                    <li>Success metrics vary based on the sales model and customer type</li>
-                                    <li>Indian market characteristics influence both B2B and B2C approaches differently</li>
-                                </ul>
-                            </div>
-                        `,
-          },
-          quiz: [
-            {
-              question: "What is the primary difference in decision-making between B2B and B2C software sales?",
-              options: [
-                "B2B decisions are always faster",
-                "B2C involves more stakeholders",
-                "B2B involves multiple stakeholders and longer evaluation periods",
-                "B2C requires more technical evaluation",
-              ],
-              correct: 2,
-              explanation:
-                "B2B decisions typically involve multiple stakeholders, committees, and extended evaluation periods, while B2C decisions are usually made by individuals or small groups more quickly.",
-            },
-            {
-              question: "In Indian B2B software sales, who typically has the final budget authority?",
-              options: ["IT Director", "End users", "Economic Buyer (often C-level executives)", "Procurement team"],
-              correct: 2,
-              explanation:
-                "The Economic Buyer, often a C-level executive, has the final budget authority and approval power in B2B software purchases.",
-            },
-            {
-              question: "What is the typical B2B software sales cycle length in India?",
-              options: ["1-4 weeks", "8-36 weeks", "1-2 weeks", "52+ weeks"],
-              correct: 1,
-              explanation:
-                "B2B software sales cycles in India typically range from 8-36 weeks (2-9 months) due to complex evaluation processes and multiple stakeholder involvement.",
-            },
-            {
-              question: "Which psychological factor is most important in B2C software sales?",
-              options: [
-                "Technical specifications",
-                "ROI calculations",
-                "Emotional connection and immediate gratification",
-                "Integration capabilities",
-              ],
-              correct: 2,
-              explanation:
-                "B2C software sales rely heavily on emotional connection and the promise of immediate gratification, unlike B2B sales which focus on rational business benefits.",
-            },
-            {
-              question: "What pricing strategy is most effective for B2C software?",
-              options: [
-                "Custom enterprise pricing",
-                "Value-based pricing with ROI calculations",
-                "Psychological pricing with freemium models",
-                "Annual contract pricing only",
-              ],
-              correct: 2,
-              explanation:
-                "B2C software benefits from psychological pricing (like ₹999 instead of ₹1000) and freemium models that lower the barrier to entry.",
-            },
-          ],
-        },
+  id: 2,
+  title: "Networking Strategies & Sales Approaches in Software Sales",
+  duration: "45 min read",
+  content: {
+    lesson: `
+      <h1>Networking Strategies & Sales Approaches in Software Sales</h1>
+      
+      <h2>Part 1: Mastering Professional Networks for Software Sales Success</h2>
+      
+      <p>In the complex ecosystem of Indian software sales, professional networks serve as the backbone of sustainable success. Unlike transactional product sales, software solutions require establishing credibility and trust before the first conversation even begins. This section delves deep into the art and science of building and leveraging professional networks specifically for software sales in the Indian context.</p>
+      
+      <h3>The Strategic Value of Networks in Software Sales</h3>
+      
+      <p>Professional networks provide multidimensional value that directly impacts sales performance:</p>
+      
+      <ul>
+          <li><strong>Trust Acceleration:</strong> In a market where 78% of B2B buyers seek referrals before engaging vendors, networks provide the crucial third-party validation needed to shorten sales cycles</li>
+          <li><strong>Market Intelligence:</strong> Your network becomes a living CRM, offering real-time insights into organizational changes, budget cycles, and emerging pain points across your target accounts</li>
+          <li><strong>Influence Mapping:</strong> Through network analysis, you can identify and access the often-hidden decision-makers and influencers within prospect organizations</li>
+          <li><strong>Competitive Shielding:</strong> Strong networks create relationship-based moats that protect your accounts from competitors, even when they undercut on price</li>
+      </ul>
+      
+      <h3>The Indian Networking Ecosystem: Layers and Leverage Points</h3>
+      
+      <p>India's professional networking landscape operates across multiple concentric circles, each with unique characteristics and value propositions:</p>
+      
+      <h4>1. Digital Professional Networks</h4>
+      <ul>
+          <li><strong>LinkedIn Dominance:</strong> With 110M+ Indian users, LinkedIn remains the primary platform for professional networking. Top performers maintain at least 500+ quality connections with 80%+ being potential buyers or influencers</li>
+          <li><strong>Vertical-Specific Platforms:</strong> GitHub for developer tools, Behance for design software, and industry-specific forums create targeted access to niche audiences</li>
+          <li><strong>WhatsApp Communities:</strong> The unsung hero of Indian business networking - private groups where real conversations and referrals happen</li>
+      </ul>
+      
+      <h4>2. Physical Networking Venues</h4>
+      <ul>
+          <li><strong>Industry Conferences:</strong> Events like NASSCOM Products Conclave, SaaSBOOMi, and TechSpark India offer concentrated access to decision-makers</li>
+          <li><strong>Alumni Networks:</strong> IIT, IIM, and other premium institution alumni groups wield significant influence in Indian tech circles</li>
+          <li><strong>Trade Associations:</strong> Organizations like NASSCOM, TiE, and local chambers of commerce provide structured networking opportunities</li>
+      </ul>
+      
+      <h4>3. Informal Power Networks</h4>
+      <ul>
+          <li><strong>Regional Community Groups:</strong> Malayali tech groups, Tamil Nadu Software Professionals, etc. often drive unexpected opportunities</li>
+          <li><strong>Former Colleague Networks:</strong> In India's fluid job market, today's colleague is tomorrow's prospect or champion</li>
+          <li><strong>Vendor Ecosystems:</strong> Complementary service providers often make the best referral partners</li>
+      </ul>
+      
+      <h3>The 360° Networking Framework for Software Sales</h3>
+      
+      <p>Transform random networking into a strategic sales engine with this comprehensive approach:</p>
+      
+      <h4>1. Network Architecture Design</h4>
+      <ul>
+          <li><strong>Connection Matrix:</strong> Map your existing network against target industries, functions, and seniority levels to identify gaps</li>
+          <li><strong>Influence Scoring:</strong> Rate connections based on their decision-making power and willingness to advocate for you</li>
+          <li><strong>Content Pathways:</strong> Create tailored content streams for different network segments (technical buyers vs. economic buyers)</li>
+      </ul>
+      
+      <h4>2. Systematic Network Expansion</h4>
+      <ul>
+          <li><strong>Smart Connection Strategy:</strong> For LinkedIn, aim for 25-50 quality new connections weekly with personalized invitations</li>
+          <li><strong>Event-Driven Networking:</strong> Pre-identify and research 5 key attendees before any industry event</li>
+          <li><strong>Warm Introduction Protocols:</strong> Develop standardized processes for requesting and giving referrals</li>
+      </ul>
+      
+      <h4>3. Value-Driven Engagement</h4>
+      <ul>
+          <li><strong>Knowledge Sharing:</strong> Curate and share insights specifically relevant to each connection's business challenges</li>
+          <li><strong>Strategic Introductions:</strong> Become a connector by introducing complementary professionals in your network</li>
+          <li><strong>Success Spotlighting:</strong> Publicly celebrate your connections' achievements to strengthen relationships</li>
+      </ul>
+      
+      <div class="case-study">
+          <h3>Case Study: Network-Driven Enterprise Deal Acceleration</h3>
+          <p><strong>Challenge:</strong> A Bangalore-based SaaS company struggled to penetrate large Indian enterprises despite having superior technology.</p>
+          
+          <p><strong>Network Strategy:</strong></p>
+          <ol>
+              <li>Identified 47 alumni connections from premium B-schools working in target accounts</li>
+              <li>Created a private LinkedIn group for digital transformation leaders in their vertical</li>
+              <li>Partnered with a respected industry analyst to co-host roundtable discussions</li>
+              <li>Implemented a structured "Referral Rewards" program for implementation partners</li>
+          </ol>
+          
+          <p><strong>Results (12 Months):</strong></p>
+          <ul>
+              <li>80% of new enterprise deals originated through network referrals</li>
+              <li>Sales cycle reduced from 9.2 to 5.8 months for network-sourced opportunities</li>
+              <li>Average deal size increased by 220% due to higher-level entry points</li>
+              <li>Created competitive insulation - 92% renewal rate even when cheaper alternatives emerged</li>
+          </ul>
+      </div>
+      
+      <h2>Part 2: B2B vs B2C Software Sales - Strategies for the Indian Market</h2>
+      
+      <p>While networking provides the foundation, understanding the fundamental differences between Business-to-Business (B2B) and Business-to-Consumer (B2C) software sales approaches is crucial for tailoring your strategy effectively. The Indian market presents unique variations of both models that every sales professional must master.</p>
+      
+      <h3>The Core Dichotomy: Enterprise vs Consumer Software Sales</h3>
+      
+      <div class="comparison-table">
+          <table>
+              <tr>
+                  <th>Dimension</th>
+                  <th>B2B Software Sales</th>
+                  <th>B2C Software Sales</th>
+              </tr>
+              <tr>
+                  <td><strong>Decision Process</strong></td>
+                  <td>6-18 month cycles with 5-11 stakeholders across multiple departments (IT, Finance, Operations, Security)</td>
+                  <td>Impulse to 30 day cycles with 1-2 decision-makers (individual or family unit)</td>
+              </tr>
+              <tr>
+                  <td><strong>Purchase Criteria</strong></td>
+                  <td>ROI calculations, integration capabilities, security compliance, vendor stability</td>
+                  <td>Emotional appeal, ease of use, immediate gratification, social proof</td>
+              </tr>
+              <tr>
+                  <td><strong>Relationship Model</strong></td>
+                  <td>Multi-year partnerships with expansion revenue through upsells and cross-sells</td>
+                  <td>Transactional with focus on volume and low-touch customer service</td>
+              </tr>
+              <tr>
+                  <td><strong>Pricing Structure</strong></td>
+                  <td>Annual contracts with volume discounts, implementation fees, and success-based pricing</td>
+                  <td>Freemium models with in-app purchases or straightforward monthly subscriptions</td>
+              </tr>
+              <tr>
+                  <td><strong>Key Metrics</strong></td>
+                  <td>Customer Lifetime Value (CLV), Net Revenue Retention, Average Contract Value</td>
+                  <td>Conversion Rate, Churn Rate, Customer Acquisition Cost</td>
+              </tr>
+          </table>
+      </div>
+      
+      <h3>B2B Software Sales Mastery: The Indian Context</h3>
+      
+      <p>Indian enterprise software sales require navigating unique cultural and organizational dynamics:</p>
+      
+      <h4>The Indian Buying Committee Ecosystem</h4>
+      <ul>
+          <li><strong>The Patron (CXO Level):</strong> Typically the budget holder who cares about strategic alignment and executive visibility</li>
+          <li><strong>The Gatekeeper (IT Leadership):</strong> Focused on technical compatibility, security, and compliance requirements</li>
+          <li><strong>The Champion (Department Head):</strong> Your internal advocate who experiences the pain point directly</li>
+          <li><strong>The Skeptic (Finance/Procurement):</strong> Challenges ROI assumptions and negotiates aggressively on pricing</li>
+          <li><strong>The User Committee:</strong> Group of end-users whose adoption determines long-term success</li>
+      </ul>
+      
+      <h4>Indian B2B Sales Cycle Complexities</h4>
+      <ol>
+          <li><strong>Pre-Approval Phase (Months 1-3):</strong> Informal discussions and relationship building before any formal process begins</li>
+          <li><strong>Technical Evaluation (Months 4-6):</strong> IT team assesses security, architecture, and integration capabilities</li>
+          <li><strong>Business Case Development (Months 7-9):</strong> Finance team builds ROI models and secures budget approvals</li>
+          <li><strong>Vendor Comparison (Months 10-12):</strong> Competitive bake-offs and reference checks</li>
+          <li><strong>Legal & Procurement (Months 13-15):</strong> Contract negotiations and compliance reviews</li>
+      </ol>
+      
+      <h3>B2C Software Sales: India-Specific Strategies</h3>
+      
+      <p>The Indian consumer software market requires adapting global best practices to local realities:</p>
+      
+      <h4>Pricing Model Innovations</h4>
+      <ul>
+          <li><strong>Micro-Subscriptions:</strong> ₹99-299/month plans that align with Indian disposable incomes</li>
+          <li><strong>Regional Pricing:</strong> Tiered pricing based on city clusters (Metro, Tier 1, Tier 2/3)</li>
+          <li><strong>Festival Offers:</strong> Diwali, New Year promotions with cultural relevance</li>
+          <li><strong>Mobile-First Payment:</strong> UPI and wallet integrations reducing payment friction</li>
+      </ul>
+      
+      <h4>Distribution Channel Strategies</h4>
+      <ul>
+          <li><strong>App Store Optimization:</strong> Localized keywords and vernacular content for Play Store/App Store</li>
+          <li><strong>Influencer Partnerships:</strong> Collaborations with regional micro-influencers (50K-500K followers)</li>
+          <li><strong>Offline-Onine Hybrid:</strong> Physical kiosks or retailer partnerships for digital product distribution</li>
+          <li><strong>Community Selling:</strong> Leveraging WhatsApp groups and local community leaders for virality</li>
+      </ul>
+      
+      <div class="indian-context">
+          <h3>Cultural Nuances in Indian Software Sales</h3>
+          <p>Successful sales strategies must account for these uniquely Indian factors:</p>
+          <ul>
+              <li><strong>Jugaad Mentality:</strong> Buyers expect flexibility and workarounds to standard processes</li>
+              <li><strong>Proof of Concept Obsession:</strong> Indian enterprises often demand extensive POCs before commitment</li>
+              <li><strong>Festival Timing:</strong> Q3 and Q4 see accelerated spending around Diwali and financial year-end</li>
+              <li><strong>Relationship Formality:</strong> Initial meetings often require senior-to-senior engagement before delegating</li>
+          </ul>
+      </div>
+      
+      <div class="key-takeaways">
+          <h3>Key Strategic Takeaways</h3>
+          <ul>
+              <li>Professional networks provide the trust foundation required for complex software sales in relationship-driven Indian market</li>
+              <li>B2B sales require navigating multi-layered decision committees with patience and systematic follow-up</li>
+              <li>B2C success demands cultural adaptation in pricing, distribution, and messaging</li>
+              <li>The most successful professionals develop hybrid skills - combining B2B's process discipline with B2C's creativity</li>
+              <li>Technology stacks should be tailored to support both models' distinct sales motions and metrics</li>
+          </ul>
+      </div>
+    `,
+  },
+  quiz: [
+    // Networking Questions (10)
+    {
+      question: "What percentage of B2B buyers in India typically seek referrals before engaging with software vendors?",
+      options: ["25-35%", "40-55%", "60-75%", "75-85%"],
+      correct: 3,
+      explanation: "Research shows 78% of Indian B2B buyers seek referrals before engaging vendors, higher than the global average of 65%.",
+    },
+    {
+      question: "Which platform has become the 'unsung hero' of Indian business networking according to the content?",
+      options: ["LinkedIn", "WhatsApp Communities", "Facebook Groups", "Telegram Channels"],
+      correct: 1,
+      explanation: "WhatsApp groups have become powerful networking tools where real business conversations and referrals happen informally.",
+    },
+    {
+      question: "What is the recommended weekly target for quality new LinkedIn connections in a strategic networking plan?",
+      options: ["5-10", "25-50", "75-100", "150+"],
+      correct: 1,
+      explanation: "25-50 quality new connections weekly balances growth with the ability to maintain meaningful relationships.",
+    },
+    {
+      question: "In the case study, what was the percentage increase in average deal size achieved through network strategies?",
+      options: ["85%", "150%", "220%", "300%"],
+      correct: 2,
+      explanation: "The case study showed a 220% increase in average deal size due to higher-level entry points from network referrals.",
+    },
+    {
+      question: "Which of these is NOT part of the 360° Networking Framework for software sales?",
+      options: ["Network Architecture Design", "Systematic Network Expansion", "Value-Driven Engagement", "Aggressive Cold Outreach"],
+      correct: 3,
+      explanation: "The framework focuses on strategic relationship building rather than cold outreach tactics.",
+    },
+    {
+      question: "What was the renewal rate for network-sourced deals in the case study, demonstrating competitive insulation?",
+      options: ["72%", "85%", "92%", "97%"],
+      correct: 2,
+      explanation: "Network-sourced deals showed a 92% renewal rate even when cheaper alternatives emerged.",
+    },
+    {
+      question: "Which type of Indian professional group was specifically mentioned as wielding significant influence in tech circles?",
+      options: ["Alumni Networks", "Sports Clubs", "Political Affiliations", "Hobby Groups"],
+      correct: 0,
+      explanation: "Alumni networks from institutions like IITs and IIMs hold significant influence in Indian tech business circles.",
+    },
+    {
+      question: "What is the primary purpose of 'Influence Scoring' in network architecture design?",
+      options: [
+        "To identify connections with decision-making power and advocacy willingness",
+        "To rank connections by their social media followers",
+        "To categorize connections by company size",
+        "To estimate potential discount percentages"
+      ],
+      correct: 0,
+      explanation: "Influence Scoring helps prioritize relationships based on decision-making power and willingness to advocate.",
+    },
+    {
+      question: "Which Indian industry event was NOT mentioned as valuable for software sales networking?",
+      options: ["NASSCOM Products Conclave", "SaaSBOOMi", "TechSpark India", "India Mobile Congress"],
+      correct: 3,
+      explanation: "India Mobile Congress wasn't mentioned, while the other three were highlighted as key networking venues.",
+    },
+    {
+      question: "What was the reduction in sales cycle time for network-sourced opportunities in the case study?",
+      options: ["From 12 to 9 months", "From 9.2 to 5.8 months", "From 6 to 4 months", "From 15 to 10 months"],
+      correct: 1,
+      explanation: "Network-sourced opportunities saw sales cycles reduce from 9.2 to 5.8 months due to existing trust.",
+    },
+
+    // B2B vs B2C Questions (10)
+    {
+      question: "How many stakeholders typically participate in an Indian enterprise software buying decision?",
+      options: ["1-3", "5-11", "12-15", "15-20"],
+      correct: 1,
+      explanation: "Indian B2B software purchases typically involve 5-11 stakeholders across multiple departments.",
+    },
+    {
+      question: "Which phase comes FIRST in the Indian B2B sales cycle as described in the content?",
+      options: [
+        "Technical Evaluation",
+        "Pre-Approval Phase (informal discussions)",
+        "Business Case Development",
+        "Vendor Comparison"
+      ],
+      correct: 1,
+      explanation: "The Pre-Approval Phase of informal discussions and relationship building precedes any formal process.",
+    },
+    {
+      question: "What is the primary purchase criteria difference between B2B and B2C software buyers?",
+      options: [
+        "B2B focuses on ROI calculations while B2C seeks emotional appeal",
+        "B2B wants colorful interfaces while B2C prefers minimal design",
+        "B2B prioritizes mobile access over desktop",
+        "B2C buyers require more documentation than B2B"
+      ],
+      correct: 0,
+      explanation: "B2B decisions center on ROI and business impact, while B2C leans toward emotional appeal and immediate gratification.",
+    },
+    {
+      question: "Which member of the Indian buying committee is primarily concerned with technical compatibility?",
+      options: ["The Patron", "The Gatekeeper", "The Champion", "The Skeptic"],
+      correct: 1,
+      explanation: "The Gatekeeper (IT Leadership) focuses on technical compatibility, security, and compliance requirements.",
+    },
+    {
+      question: "What is a common pricing model innovation for B2C software in India?",
+      options: [
+        "Five-year lock-in contracts",
+        "Micro-subscriptions (₹99-299/month)",
+        "Enterprise-wide unlimited licensing",
+        "Pay-per-API-call models"
+      ],
+      correct: 1,
+      explanation: "Micro-subscriptions in the ₹99-299 range align with Indian disposable income levels for B2C software.",
+    },
+    {
+      question: "Which cultural factor specifically impacts timing of software purchases in India?",
+      options: [
+        "Festival seasons (Diwali/New Year)",
+        "Academic calendar cycles",
+        "Election cycles",
+        "Weather pattern changes"
+      ],
+      correct: 0,
+      explanation: "Q3 and Q4 see accelerated spending around Diwali and financial year-end in Indian businesses.",
+    },
+    {
+      question: "What is the typical B2B software sales cycle duration for Indian enterprises?",
+      options: ["1-3 months", "3-6 months", "6-18 months", "2-4 years"],
+      correct: 2,
+      explanation: "Indian enterprise software sales typically follow 6-18 month cycles due to complex evaluation processes.",
+    },
+    {
+      question: "Which distribution channel strategy was NOT mentioned for Indian B2C software sales?",
+      options: [
+        "App Store Optimization",
+        "Influencer Partnerships",
+        "Offline-Online Hybrid",
+        "Government Tender Bidding"
+      ],
+      correct: 3,
+      explanation: "Government tender bidding is a B2B strategy, not mentioned for B2C distribution channels.",
+    },
+    {
+      question: "What unique Indian expectation often extends the sales cycle for enterprise software?",
+      options: [
+        "Immediate contract signing",
+        "Extensive Proof of Concepts",
+        "Full payment before demo",
+        "Unlimited free training"
+      ],
+      correct: 1,
+      explanation: "Indian enterprises often demand extensive POCs before commitment, extending sales cycles.",
+    },
+    {
+      question: "Which metric is MOST critical for evaluating B2B software sales performance?",
+      options: [
+        "Customer Lifetime Value (CLV)",
+        "Daily Active Users (DAU)",
+        "Social Media Engagement",
+        "App Store Ratings"
+      ],
+      correct: 0,
+      explanation: "CLV is paramount in B2B where relationships span years with expansion revenue opportunities.",
+    }
+  ]
+},
       ],
     },
     {
@@ -980,7 +1211,9 @@ function renderCertificate() {
                     <p><strong>Completion Date:</strong> ${new Date().toLocaleDateString()}</p>
                     <p><strong>Certificate ID:</strong> SA-${Date.now().toString().slice(-6)}</p>
                 </div>
-             
+                <button class="btn-primary" onclick="downloadCertificate()" style="margin-top: 2rem;">
+                    <i class="fas fa-download"></i> Download Certificate
+                </button>
             </div>
         `
   } else {
